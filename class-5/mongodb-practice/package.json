@@ -1,0 +1,19 @@
+{
+  "name": "mongodb-practice",
+  "version": "1.0.0",
+  "description": "## Collections vs. Tables (SQL)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^22.13.1"
+  },
+  "dependencies": {
+    "mongodb": "^6.13.0"
+  }
+}
