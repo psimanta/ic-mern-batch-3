@@ -1,0 +1,212 @@
+[
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2d6"
+    },
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "67bdc04fec428249d91fb2d1",
+    "price": 20,
+    "sales": 5000000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2d7"
+    },
+    "title": "Harry Potter and the Chamber of Secrets",
+    "author": "67bdc04fec428249d91fb2d1",
+    "price": 22,
+    "sales": 4800000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2d8"
+    },
+    "title": "Harry Potter and the Prisoner of Azkaban",
+    "author": "67bdc04fec428249d91fb2d1",
+    "price": 24,
+    "sales": 4700000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2d9"
+    },
+    "title": "Harry Potter and the Goblet of Fire",
+    "author": "67bdc04fec428249d91fb2d1",
+    "price": 26,
+    "sales": 4600000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2da"
+    },
+    "title": "Harry Potter and the Order of the Phoenix",
+    "author": "67bdc04fec428249d91fb2d1",
+    "price": 28,
+    "sales": 4500000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2db"
+    },
+    "title": "A Game of Thrones",
+    "author": "67bdc04fec428249d91fb2d2",
+    "price": 25,
+    "sales": 4000000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2dc"
+    },
+    "title": "A Clash of Kings",
+    "author": "67bdc04fec428249d91fb2d2",
+    "price": 28,
+    "sales": 4200000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2dd"
+    },
+    "title": "A Storm of Swords",
+    "author": "67bdc04fec428249d91fb2d2",
+    "price": 30,
+    "sales": 3900000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2de"
+    },
+    "title": "A Feast for Crows",
+    "author": "67bdc04fec428249d91fb2d2",
+    "price": 32,
+    "sales": 3700000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2df"
+    },
+    "title": "A Dance with Dragons",
+    "author": "67bdc04fec428249d91fb2d2",
+    "price": 34,
+    "sales": 3500000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2e0"
+    },
+    "title": "The Lord of the Rings",
+    "author": "67bdc04fec428249d91fb2d3",
+    "price": 30,
+    "sales": 6000000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2e1"
+    },
+    "title": "The Hobbit",
+    "author": "67bdc04fec428249d91fb2d3",
+    "price": 25,
+    "sales": 5500000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2e2"
+    },
+    "title": "The Silmarillion",
+    "author": "67bdc04fec428249d91fb2d3",
+    "price": 27,
+    "sales": 4000000,
+    "genre": "Fantasy"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2e3"
+    },
+    "title": "Murder on the Orient Express",
+    "author": "67bdc04fec428249d91fb2d4",
+    "price": 15,
+    "sales": 3000000,
+    "genre": "Mystery"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2e4"
+    },
+    "title": "And Then There Were None",
+    "author": "67bdc04fec428249d91fb2d4",
+    "price": 18,
+    "sales": 3700000,
+    "genre": "Mystery"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2e5"
+    },
+    "title": "The ABC Murders",
+    "author": "67bdc04fec428249d91fb2d4",
+    "price": 14,
+    "sales": 2500000,
+    "genre": "Mystery"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2e6"
+    },
+    "title": "The Murder of Roger Ackroyd",
+    "author": "67bdc04fec428249d91fb2d4",
+    "price": 17,
+    "sales": 2800000,
+    "genre": "Mystery"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2e7"
+    },
+    "title": "The Shining",
+    "author": "67bdc04fec428249d91fb2d5",
+    "price": 18,
+    "sales": 3500000,
+    "genre": "Horror"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2e8"
+    },
+    "title": "It",
+    "author": "67bdc04fec428249d91fb2d5",
+    "price": 20,
+    "sales": 3200000,
+    "genre": "Horror"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2e9"
+    },
+    "title": "Misery",
+    "author": "67bdc04fec428249d91fb2d5",
+    "price": 22,
+    "sales": 3100000,
+    "genre": "Horror"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc0c0ec428249d91fb2ea"
+    },
+    "title": "The Stand",
+    "author": "67bdc04fec428249d91fb2d5",
+    "price": 24,
+    "sales": 3300000,
+    "genre": "Horror"
+  }
+]
