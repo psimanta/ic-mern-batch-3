@@ -75,28 +75,6 @@ const totalBookSales = async () => {
   console.log(result);
 };
 
-// Calculate revenue by author
-const revenueByAuthor = async () => {
-  const result = await Book.aggregate([
-    {
-      $group: {
-        _id: "$author",
-        totalRevenue: {
-          $sum: {
-            $multiply: ["$price", "$sales"],
-          },
-        },
-      },
-    },
-    {
-      $sort: {
-        totalRevenue: -1,
-      },
-    },
-  ]);
-  console.log(result);
-};
-
 const mostExpensiveBook = async () => {
   const result = await Book.aggregate([
     {
@@ -118,6 +96,54 @@ const mostExpensiveBook = async () => {
   console.log(result);
 };
 
+// Calculate revenue by author
+const revenueByAuthor = async () => {
+  const result = await Book.aggregate([
+    // Stage 1: Joining
+    {
+      $lookup: {
+        from: "authors",
+        localField: "author",
+        foreignField: "_id",
+        as: "authorDetails",
+      },
+    },
+    // Stage 2: Flattening array
+    {
+      $unwind: "$authorDetails",
+    },
+    // Stage 3:
+    {
+      $group: {
+        _id: "$authorDetails._id",
+        authorName: {
+          $first: "$authorDetails.name",
+        },
+        totalSales: {
+          $sum: "$sales",
+        },
+        avgPrice: {
+          $avg: "$price",
+        },
+        totalRevenue: { $sum: { $multiply: ["$price", "$sales"] } },
+        books: {
+          $push: {
+            title: "$title",
+            genre: "$genre",
+          },
+        },
+      },
+    },
+    {
+      $sort: {
+        totalRevenue: -1,
+      },
+    },
+  ]);
+  console.table(JSON.stringify(result, null, 2));
+  // console.log(result);
+};
+
 // totalBookSales();
-// revenueByAuthor();
-mostExpensiveBook();
+revenueByAuthor();
+// mostExpensiveBook();
