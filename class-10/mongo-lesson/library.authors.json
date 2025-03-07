@@ -1,0 +1,37 @@
+[
+  {
+    "_id": {
+      "$oid": "67bdc04fec428249d91fb2d1"
+    },
+    "name": "J.K. Rowling",
+    "dob": "1965-07-31T00:00:00.000Z"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc04fec428249d91fb2d2"
+    },
+    "name": "George R.R. Martin",
+    "dob": "1948-09-20T00:00:00.000Z"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc04fec428249d91fb2d3"
+    },
+    "name": "J.R.R. Tolkien",
+    "dob": "1892-01-03T00:00:00.000Z"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc04fec428249d91fb2d4"
+    },
+    "name": "Agatha Christie",
+    "dob": "1890-09-15T00:00:00.000Z"
+  },
+  {
+    "_id": {
+      "$oid": "67bdc04fec428249d91fb2d5"
+    },
+    "name": "Stephen King",
+    "dob": "1947-09-21T00:00:00.000Z"
+  }
+]
