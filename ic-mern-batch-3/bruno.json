@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "IC MERN Batch 3",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

@@ -1,0 +1,29 @@
+meta {
+  name: Create Book
+  type: http
+  seq: 5
+}
+
+post {
+  url: http://localhost:8000/books
+  body: json
+  auth: bearer
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InNAaWMuY29tIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3NDEzNjg1MjN9.aBj9H7ViMS6x75PIwUHfrZYTZj7nbzLu1gJSenQO7NI
+}
+
+auth:bearer {
+  token: 
+}
+
+body:json {
+  {
+    "title": "The Stand",
+    "author": "67bdc04fec428249d91fb2d5",
+    "price": 24,
+    "sales": 3300000,
+    "genre": "Horror"
+  }
+}
